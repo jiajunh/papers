@@ -1,3 +1,5 @@
+## Classical RL algorithms
+
 Human-level control through deep reinforcement learning [Deep Q-learning](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf)
 
 Deep Reinforcement Learning with Double Q-learning [Double Q-learning](https://arxiv.org/pdf/1509.06461)
@@ -17,6 +19,10 @@ Soft Actor-Critic Algorithms and Applications [SAC](https://arxiv.org/pdf/1812.0
 High-Dimensional continuous Control Using Generalized Advantage Estimation [GAE](https://arxiv.org/pdf/1506.02438)
 
 Conservative Q-Learning for Offline Reinforcement Learning [Conservative Q-laerning](https://arxiv.org/pdf/2006.04779)
+
+
+
+## RL with LLM
 
 DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models [Deepseek GRPO](https://arxiv.org/pdf/2402.03300)
 
