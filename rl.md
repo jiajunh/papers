@@ -20,3 +20,5 @@ Conservative Q-Learning for Offline Reinforcement Learning [Conservative Q-laern
 
 DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models [Deepseek GRPO](https://arxiv.org/pdf/2402.03300)
 
+DeepScaleR [deepscaler](https://pretty-radio-b75.notion.site/DeepScaleR-Surpassing-O1-Preview-with-a-1-5B-Model-by-Scaling-RL-19681902c1468005bed8ca303013a4e2)
+
