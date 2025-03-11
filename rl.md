@@ -1,3 +1,5 @@
+[TOC]
+
 ## Classical RL algorithms
 
 Human-level control through deep reinforcement learning [Deep Q-learning](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf)
@@ -27,4 +29,6 @@ Conservative Q-Learning for Offline Reinforcement Learning [Conservative Q-laern
 DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models [Deepseek GRPO](https://arxiv.org/pdf/2402.03300)
 
 DeepScaleR [deepscaler](https://pretty-radio-b75.notion.site/DeepScaleR-Surpassing-O1-Preview-with-a-1-5B-Model-by-Scaling-RL-19681902c1468005bed8ca303013a4e2)
+
+* GRPO just replace the critic model back to average rewards with several samples, as MC. It’s specifically in math tasks, if we only use the result rewards, then no reward models, and MC is good, since not need another critic model, which may introduce some errors.
 
