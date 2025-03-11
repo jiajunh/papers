@@ -23,7 +23,8 @@
 
 * Use a dataset to construct a trie for next generation, avoid small model
 
-
+**QLORA: Efficient Finetuning of Quantized LLMs [Q-Lora](https://arxiv.org/pdf/2305.14314)**
+* 4-bit NormalFloat Quantization and Double Quantization
 
 
 ## Datasets and Evaluation
@@ -31,7 +32,7 @@
 * Get website data of s anapshot, and filter some bias tokens
 
 **BLINK : Multimodal Large Language ModelsCan See but Not Perceive [Blink](https://arxiv.org/pdf/2404.12390)**
-Focus on some tasks human can answer with a blink time, rather than normal recognition and caption tasks.
+* Focus on some tasks human can answer with a blink time, rather than normal recognition and caption tasks.
 
 **Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena [paper](https://arxiv.org/pdf/2306.05685)**
 * MT-bench(multi-turn question answering), Chatbot Arena(2 answers, which is better)
