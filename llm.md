@@ -27,7 +27,9 @@
 * 4-bit NormalFloat Quantization and Double Quantization
 
 
+
 ## Datasets and Evaluation
+
 **Documenting Large Webtext Corpora: A Case Study on the Colossal Clean Crawled Corpus [C4](https://arxiv.org/pdf/2104.08758)**
 * Get website data of s anapshot, and filter some bias tokens
 
@@ -42,26 +44,6 @@
 
 
 
-## Pretraining
-
-
-
-## Fine-tuning
-
-
-
-## Prompting and In Context Learning
-
-
-
-## Instruct Learning
-
-
-
-## Scaling Law
-
-
-
 ## RLHF
 **Training language models to follow instructions with human feedback [RLHF](https://arxiv.org/pdf/2203.02155)**
 * reinforcement learning for llm setting
@@ -72,11 +54,14 @@
 **RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment [RAFT](https://arxiv.org/pdf/2304.06767)**
 * Some kind of close to DPO, the reward is fixed with perference.
 
+
+
 ## Knowledge Understanding and Manipulation
+**Finding Transformer Circuits with Edge Pruning [paper](https://arxiv.org/pdf/2406.16778)**
+* Use edge-pruning method to reduce most of the computation graph
 
-
-
-## Retrieval Augmented Generation
+**Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations [paper](https://arxiv.org/pdf/2405.05904)**
+* Train model use large proportion of unknown data may be harmful, but with some maybe known data is helpful.
 
 
 
@@ -90,3 +75,13 @@
 
 ## Robotics, Embodied AI
 
+
+
+## Sampling
+**Optimizing Temperature for Language Models with Multi-Sample Inference [paper](https://arxiv.org/pdf/2502.05234)**
+* Find that the token level entropy has a spike point of temperature, which is the point the log entropy from concave to convex, meaning quality collapse.
+
+
+## Attention Sinks
+**Efficient Streaming Language Models with Attention Sinks [paper](https://paperswithcode.com/method/attention-sinks)**
+* Use initial several tokens (attention sink) and most recent several tokens is good in performance and much faster, can deal with long texts.

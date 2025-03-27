@@ -18,6 +18,7 @@
 * Deep PG with critic model, extend DQN on continuous space.
 
 **Trust Region Policy Optimization [TRPO](https://arxiv.org/pdf/1502.05477)**
+
 * Constraint the step with KL-divergence (elegant math)
 
 **Proximal Policy Optimization Algorithms [PPO](https://arxiv.org/pdf/1707.06347)**
