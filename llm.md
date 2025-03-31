@@ -63,6 +63,9 @@
 **Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations [paper](https://arxiv.org/pdf/2405.05904)**
 * Train model use large proportion of unknown data may be harmful, but with some maybe known data is helpful.
 
+**Interpreting and Editing Vision-Language Representations to Mitigate Hallucinations [paper](https://arxiv.org/pdf/2410.02762)**
+* For an selected object, use internal confidence over all layers to represent the patch object and segmentation.
+* After generation and detect hallucination object with labels, substract the object embedding from related image patches.
 
 
 ## Reasoning
@@ -82,6 +85,15 @@
 * Find that the token level entropy has a spike point of temperature, which is the point the log entropy from concave to convex, meaning quality collapse.
 
 
-## Attention Sinks
+
+## Attention Behaviors
+
 **Efficient Streaming Language Models with Attention Sinks [paper](https://paperswithcode.com/method/attention-sinks)**
 * Use initial several tokens (attention sink) and most recent several tokens is good in performance and much faster, can deal with long texts.
+
+
+**Massive Activations in Large Language Models [paper](https://arxiv.org/pdf/2402.17762)**
+* Some certain dimensions of activations, has some massive large bias
+
+
+
