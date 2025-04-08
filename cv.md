@@ -35,6 +35,8 @@
 
 ## Generative Models
 
+**Denoising Diffusion Probabilistic Models [diffusion](https://arxiv.org/pdf/2006.11239)**
+* each step add a small noise until the image becomes pure noise. And recover step is denoising.
 
 
 ## Segmentation

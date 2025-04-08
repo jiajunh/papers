@@ -4,10 +4,16 @@
 ## Multimodal
 
 **ConceptAttention: Diffusion Transformers Learn Highly Interpretable Features** [paper](https://arxiv.org/pdf/2502.04320)
-
 * Mannaully add object token at the end of the prompts improves saliency map, especially for diffusion models.
 
+
+**Shikra: Unleashing Multimodal LLM’s Referential Dialogue Magic [paper](https://arxiv.org/pdf/2306.15195)**
+* Train with bboxes, make model more easy to interactive.
  
+
+**An Empirical Study of GPT-3 for Few-Shot Knowledge-Based VQA [PICa](https://arxiv.org/pdf/2109.05014)**
+* Use captions of the image and compose few shot learning for answering questions to a image.
+
 
 ## Efficiency and Optimization
 
@@ -26,6 +32,9 @@
 **QLORA: Efficient Finetuning of Quantized LLMs [Q-Lora](https://arxiv.org/pdf/2305.14314)**
 * 4-bit NormalFloat Quantization and Double Quantization
 
+
+**Optimizing ML Training with Metagradient Descent [paper](https://arxiv.org/pdf/2503.13751)**
+* Use metaparameters to choose the data weight for training, initially a $\mathbb{1}$ vector. Allow the data selecting a part of the training process.
 
 
 ## Datasets and Evaluation
@@ -68,6 +77,7 @@
 * After generation and detect hallucination object with labels, substract the object embedding from related image patches.
 
 
+
 ## Reasoning
 
 
@@ -95,5 +105,7 @@
 **Massive Activations in Large Language Models [paper](https://arxiv.org/pdf/2402.17762)**
 * Some certain dimensions of activations, has some massive large bias
 
+**When Attention Sink Emerges Language Models: An Empirical View [paper](https://arxiv.org/pdf/2410.10781v1)**
 
+* The first token, attention sink, is usually highly related to the angle of the $k_1$ and $q_i$ . The norm of sink usually has high $l_2$ norm and the sink doesn't have too much semantic meaning.
 
