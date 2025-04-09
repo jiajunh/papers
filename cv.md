@@ -33,10 +33,20 @@
 
 
 
+## Efficiency and Optimization
+**Token Merging: Your ViT But Faster [paper](https://arxiv.org/pdf/2210.09461)**
+* On every layer, use matching method to merge a fixed number of tokens, use the key vector than the feature vector.
+
+
+
+
 ## Generative Models
 
 **Denoising Diffusion Probabilistic Models [diffusion](https://arxiv.org/pdf/2006.11239)**
 * each step add a small noise until the image becomes pure noise. And recover step is denoising.
+
+
+
 
 
 ## Segmentation

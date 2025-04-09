@@ -9,7 +9,7 @@
 
 **Shikra: Unleashing Multimodal LLM’s Referential Dialogue Magic [paper](https://arxiv.org/pdf/2306.15195)**
 * Train with bboxes, make model more easy to interactive.
- 
+
 
 **An Empirical Study of GPT-3 for Few-Shot Knowledge-Based VQA [PICa](https://arxiv.org/pdf/2109.05014)**
 * Use captions of the image and compose few shot learning for answering questions to a image.
@@ -94,6 +94,9 @@
 **Optimizing Temperature for Language Models with Multi-Sample Inference [paper](https://arxiv.org/pdf/2502.05234)**
 * Find that the token level entropy has a spike point of temperature, which is the point the log entropy from concave to convex, meaning quality collapse.
 
+
+**Adaptive Decoding via Latent Preference Optimization [paper](https://arxiv.org/pdf/2411.09661)**
+* An addition layer to predict the temperature at every generation step
 
 
 ## Attention Behaviors
